@@ -3,7 +3,9 @@ import * as awarenessProtocol from "y-protocols/awareness.js";
 import * as Y from "yjs";
 import type { ConnectionStatus, FileEntry, FileMeta, RunResult } from "../types";
 
-const WS_URL = (import.meta.env.VITE_WS_URL as string | undefined) || "ws://localhost:3000";
+const WS_URL =
+  (import.meta.env.VITE_WS_URL as string | undefined) ||
+  "wss://collab-code-editor-6cqx.onrender.com";
 const RECONNECT_BASE_DELAY_MS = 1000;
 const RECONNECT_MAX_DELAY_MS = 15000;
 const REMOTE_ORIGIN = "remote";
