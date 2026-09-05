@@ -1,39 +1,5 @@
-# Dependencies
 node_modules/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Build output
 dist/
-build/
-.next/
-
-# Logs
-*.log
-logs/
-
-# OS files
+.env
+collab.db
 .DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-
-# Coverage
-coverage/
-
-# Docker
-*.pid
-
-# Temporary files
-tmp/
-temp/
